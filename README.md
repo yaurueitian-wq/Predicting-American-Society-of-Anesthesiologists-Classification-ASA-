@@ -7,7 +7,7 @@
 | 項目 | 內容 |
 |------|------|
 | **目標** | 預測患者的 ASA 分級 (1-4 級) |
-| **資料集** | Kaggle 競賽資料 |
+| **資料集** | [MOVER Dataset](https://mover.ics.uci.edu/index.html) (Kaggle 競賽) |
 | **訓練集** | 14,734 筆 |
 | **測試集** | 6,315 筆 |
 | **評估指標** | F1 Macro Score |
