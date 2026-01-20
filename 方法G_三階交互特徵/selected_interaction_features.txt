@@ -1,0 +1,56 @@
+# 方法G: 選中的交互特徵
+# 總共 50 個
+
+## 二階交互特徵:
+  - Age BMI
+  - Age lab_abnormal_total
+  - Age lab_count
+  - Age catheter_count
+  - Age is_elderly
+  - Age is_obese
+  - BMI lab_abnormal_total
+  - BMI lab_count
+  - BMI is_elderly
+  - BMI is_obese
+  - Surgery_Count lab_abnormal_total
+  - Surgery_Count lab_count
+  - lab_abnormal_total lab_count
+  - lab_abnormal_total catheter_count
+  - lab_abnormal_total is_elderly
+  - lab_abnormal_total is_obese
+  - lab_count catheter_count
+  - lab_count is_elderly
+  - lab_count is_obese
+  - catheter_count is_elderly
+  - is_elderly is_obese
+
+## 三階交互特徵:
+  - Age BMI lab_abnormal_total
+  - Age BMI lab_count
+  - Age BMI is_elderly
+  - Age BMI is_obese
+  - Age lab_abnormal_total lab_count
+  - Age lab_abnormal_total catheter_count
+  - Age lab_abnormal_total is_elderly
+  - Age lab_abnormal_total is_obese
+  - Age lab_count catheter_count
+  - Age lab_count is_elderly
+  - Age lab_count is_obese
+  - Age catheter_count is_elderly
+  - Age is_elderly is_obese
+  - BMI lab_abnormal_total is_elderly
+  - BMI lab_abnormal_total is_obese
+  - BMI lab_count is_elderly
+  - BMI lab_count is_obese
+  - BMI catheter_count is_obese
+  - BMI is_elderly is_obese
+  - Surgery_Count lab_abnormal_total lab_count
+  - Surgery_Count lab_abnormal_total catheter_count
+  - Surgery_Count lab_count catheter_count
+  - lab_abnormal_total lab_count catheter_count
+  - lab_abnormal_total lab_count is_elderly
+  - lab_abnormal_total lab_count is_obese
+  - lab_abnormal_total catheter_count is_elderly
+  - lab_abnormal_total is_elderly is_obese
+  - lab_count catheter_count is_elderly
+  - lab_count is_elderly is_obese
