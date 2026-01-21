@@ -1,0 +1,57 @@
+# 方法H: 新增的特徵
+
+## 縱向特徵:
+  - h_max_lab_repeats
+  - h_creat_count
+  - h_creat_persistently_abnormal
+  - h_creat_trend
+  - h_creat_range
+  - h_creat_abnormal_ratio
+  - h_hgb_count
+  - h_hgb_persistently_abnormal
+  - h_hgb_trend
+  - h_hgb_range
+  - h_hgb_abnormal_ratio
+  - h_glucose_count
+  - h_glucose_persistently_abnormal
+  - h_glucose_trend
+  - h_glucose_range
+  - h_glucose_abnormal_ratio
+  - h_sodium_count
+  - h_sodium_persistently_abnormal
+  - h_sodium_trend
+  - h_sodium_range
+  - h_sodium_abnormal_ratio
+  - h_potassium_count
+  - h_potassium_persistently_abnormal
+  - h_potassium_trend
+  - h_potassium_range
+  - h_potassium_abnormal_ratio
+  - h_plt_count
+  - h_plt_persistently_abnormal
+  - h_plt_trend
+  - h_plt_range
+  - h_plt_abnormal_ratio
+
+## 交互特徵 (66 個):
+  - Age BMI
+  - Age Surgery_Count
+  - Age lab_abnormal_total
+  - Age lab_count
+  - Age med_count
+  - Age catheter_count
+  - Age is_elderly
+  - Age is_obese
+  - Age h_max_lab_repeats
+  - Age h_creat_persistently_abnormal
+  - Age h_hgb_persistently_abnormal
+  - BMI Surgery_Count
+  - BMI lab_abnormal_total
+  - BMI lab_count
+  - BMI med_count
+  - BMI catheter_count
+  - BMI is_elderly
+  - BMI is_obese
+  - BMI h_max_lab_repeats
+  - BMI h_creat_persistently_abnormal
+  ... 等共 66 個
