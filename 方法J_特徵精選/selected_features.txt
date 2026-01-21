@@ -1,0 +1,50 @@
+# 方法 J: 精選的 45 個特徵
+
+## 原始特徵:
+  - Surgery_Category
+  - WEIGHT
+  - Age
+  - Drug_Category
+  - HEIGHT
+  - lab_abnormal_H
+  - BMI
+  - lab_abnormal_L
+  - h_Glucose_count
+  - h_Hemoglobin_count
+  - lab_count
+  - Route_Standardized
+  - h_Creatinine_count
+  - Surgery_Procedure_Type
+  - hx_ckd
+  - h_Potassium_count
+  - h_Platelets_count
+  - Anesthesia_Method
+  - h_Sodium_count
+  - h_total_repeat_count
+
+## 交互特徵:
+  - Age BMI
+  - Age catheter_count
+  - Age lab_abnormal_total
+  - BMI catheter_count
+  - Age h_total_repeat_count
+  - BMI h_total_repeat_count
+  - BMI lab_abnormal_total
+  - BMI Surgery_Count
+  - lab_abnormal_total catheter_count
+  - catheter_count h_total_repeat_count
+  - Age hx_count
+  - BMI hx_count
+  - Age Surgery_Count
+  - lab_abnormal_total hx_count
+  - lab_abnormal_total h_total_repeat_count
+  - BMI med_count
+  - BMI hx_severity
+  - Age hx_severity
+  - catheter_count hx_count
+  - hx_count h_total_repeat_count
+  - Age med_count
+  - hx_severity h_total_repeat_count
+  - lab_abnormal_total hx_severity
+  - Surgery_Count lab_abnormal_total
+  - catheter_count hx_severity

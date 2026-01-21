@@ -25,6 +25,8 @@
 | F: SMOTE | 過採樣 | 70 | 0.51602 | -4.1% |
 | G: 三階交互 | PolynomialFeatures (degree=3) | 90 | 0.53598 | -0.4% |
 | H: 縱向特徵 | Lab_Values 縱向分析 | 137 | 0.51656 | -4.0% |
+| I: 推測病史 | 臨床診斷標準推測共病 | 86 | 0.53341 | -0.9% |
+| J: 特徵精選 | Feature Importance + RFE | 45 | 0.50398 | -6.3% |
 
 **整體提升: +15.7%** (0.46513 → 0.53809)
 
@@ -52,6 +54,10 @@ ASA 麻醉風險分級預測/
 │   └── degree3_interaction_model.py # 三階交互特徵
 ├── 方法H_縱向特徵/
 │   └── longitudinal_features.py     # Lab_Values 縱向分析
+├── 方法I_推測病史/
+│   └── infer_medical_history.py     # 從 Lab 推測共病
+├── 方法J_特徵精選/
+│   └── feature_selection.py         # Feature Importance + RFE
 ├── 專案紀錄/
 │   ├── 改善歷程總結.md              # 完整改善歷程
 │   ├── 問題與解決方案.md            # 遇到的問題與解法
@@ -142,6 +148,8 @@ python 方法E_超參數調優/tuning_model.py
 4. **SMOTE 過採樣無效**: 合成樣本破壞原始分布，`class_weight='balanced'` 更好
 5. **三階交互特徵無效**: 更高維度不一定更好，可能引入噪音
 6. **縱向特徵無效**: 雖然分析上有意義，但特徵過多可能導致過擬合
+7. **推測病史效果有限**: 雖然推測的病史與 ASA 高度相關，但可能與現有特徵重疊
+8. **RFE 特徵選擇過擬合**: 本地 F1 高於方法 E，但 Kaggle 反而下降 6.3%。RFE 基於訓練資料選特徵，破壞泛化能力。這是唯一 Kaggle 低於本地的方法
 
 ## 參考資料
 
